@@ -7,11 +7,11 @@
   font-size: 22px;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
 }
 
-#confirm-button {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -27,7 +27,8 @@
   font-size: 22px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
+.text.child {
+    color: red;
+    font-size: 14px;
 }
+
