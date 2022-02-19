@@ -24,6 +24,13 @@ body {
   padding: 15px 8px;
 }
 
+/* Note that the addition of a general margin
+  adds a different distance beetwen blue cubes and
+  the general withe cube, this is of interset since 
+  it is in fact simpler as proposed by the solution 
+  in which we only care about the bottom and up
+  margins and the blanck spaces do not need further
+  modification.*/
 .button-container {
   text-align: center;
   background: #e3f4ff;
