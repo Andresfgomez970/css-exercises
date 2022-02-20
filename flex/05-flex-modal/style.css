@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
 }
 
 .icon {
@@ -33,6 +38,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* Instead of using the size we could use the flex-shrink consideration */
+  min-height: 42px;
+  min-width: 42px;
+}
+
+.message{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message .item{
+ display: flex;
+}
+
+.message .item .close-button{
+  margin-left: auto;
+}
+
+.header{
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .close-button {
